@@ -26,7 +26,6 @@ int _printf(const char *format, ...)
 			cache[buff_ind++] = format[i];
 			if (buff_ind == BUFFER_SIZE)
 				print_cache(cache, &buff_ind);
-			/*write(1, &format[i], 1); */
 			printed_chars++;
 		}
 		else
