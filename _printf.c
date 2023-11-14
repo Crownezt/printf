@@ -30,7 +30,7 @@ int _printf(const char *format, ...)
 					return (-1);
 				}
 			}
-			else if(format[counter + 1] == 's')
+			else if (format[counter + 1] == 's')
 			{
 				i = print_string(characters);
 				if (i < 0)
